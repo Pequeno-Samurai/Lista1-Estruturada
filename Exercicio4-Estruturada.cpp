@@ -43,7 +43,7 @@ void op()
     	} 
 	else 
 	{
-      printf("Sem solução.");
+      printf("Sem soluÃ§Ã£o.");
     }
    }
 }
@@ -53,7 +53,7 @@ void menu()
   
   while(ops != 2)
   {
-  printf("Escolha uma das operaçõess:\n1-Fazer uma operação matemática.\n2- Sair\n>>>>>>>>:");
+  printf("Escolha uma das operaÃ§Ãµess:\n1-Fazer uma operaÃ§Ã£o matemÃ¡tica.\n2- Sair\n>>>>>>>>:");
   scanf("%d", &ops);
   if(ops == 1)
   {
