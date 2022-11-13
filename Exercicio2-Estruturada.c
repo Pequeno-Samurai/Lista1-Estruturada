@@ -45,9 +45,9 @@ int main()
 	struct dados credenciado;
 	struct dados_carro carro[3];
 	
-	printf("Razão Social e Nome Completo: ");
+	printf("RazÃ£o Social e Nome Completo: ");
 	gets(credenciado.nome_completo);
-	printf("Endereço: ");
+	printf("EndereÃ§o: ");
 	gets(credenciado.endereco);
 	printf("Numero: ");
 	scanf("%d", &credenciado.numero);
@@ -69,15 +69,15 @@ int main()
 	scanf("%d", &credenciado.cpf);
 	printf("CNPJ: ");
 	scanf("%d", &credenciado.cnpj);
-	printf("Inscrição estadual: ");
+	printf("InscriÃ§Ã£o estadual: ");
 	scanf("%d", &credenciado.inscricao_estadual);
-	printf("Inscrição municipal: ");
+	printf("InscriÃ§Ã£o municipal: ");
 	scanf("%d", &credenciado.inscricao_municipal);
 	printf("CNAE: ");
 	scanf("%d", &credenciado.cnae);
 	printf("Data de Nascimento: ");
 	gets(credenciado.data_nascimento);
-	printf("Deseja receber os proximos boletos por email ?\nSIM [] NÂO []\nDigite 1 para sim ou 0 para não:  ");
+	printf("Deseja receber os proximos boletos por email ?\nSIM [] NÃ‚O []\nDigite 1 para sim ou 0 para nÃ£o:  ");
 	scanf("%d", &credenciado.email_op);
 	fflush(stdin);
 	printf("E-mail: ");
@@ -123,8 +123,8 @@ int main()
 	printf("Cor: ");
 	gets(carro[2].cor);
 	
-	printf("\nRazão Social e Nome Completo: %s", credenciado.nome_completo);
-	printf("\nEndereço: %s", credenciado.endereco);
+	printf("\nRazÃ£o Social e Nome Completo: %s", credenciado.nome_completo);
+	printf("\nEndereÃ§o: %s", credenciado.endereco);
 	printf("\nNumero: %d", credenciado.numero);
 	printf("\nComplemento: %s", credenciado.complemento);
 	printf("\nBairro: %s", credenciado.bairro);
@@ -134,17 +134,17 @@ int main()
 	printf("\nDDD: %d", credenciado.ddd);
 	printf("\nCPF: %d", credenciado.cpf);
 	printf("\nCNPJ: %d", credenciado.cnpj);
-	printf("\nInscrição estadual: %d", credenciado.inscricao_estadual);
-	printf("\nInscrição municipal: %d", credenciado.inscricao_municipal);
+	printf("\nInscriÃ§Ã£o estadual: %d", credenciado.inscricao_estadual);
+	printf("\nInscriÃ§Ã£o municipal: %d", credenciado.inscricao_municipal);
 	printf("\nCNAE: %d", credenciado.cnae);
 	printf("\nData de Nascimento: %s", credenciado.data_nascimento);
 	if (credenciado.email_op > 0)
 	{
-		printf("\nDeseja receber os proximos boletos por email ?\nSIM [X] NÂO []");
+		printf("\nDeseja receber os proximos boletos por email ?\nSIM [X] NÃ‚O []");
 	}
 	else 
 	{
-		printf("\nDeseja receber os proximos boletos por email ?\nSIM [] NÂO [X]");
+		printf("\nDeseja receber os proximos boletos por email ?\nSIM [] NÃ‚O [X]");
 	}
 	printf("\nE-mail: %s", credenciado.email);
 	printf("\nContato: %d", credenciado.contato);
@@ -158,11 +158,11 @@ int main()
 	valida_ano1=le_valida_ano(carro[0].ano);
 	if (valida_ano1 >0)
 	{
-		printf("\nAno: %d é valido", carro[0].ano);
+		printf("\nAno: %d Ã© valido", carro[0].ano);
 	}
 	else 
 	{
-		printf("\nAno: %d é invalido !", carro[0].ano);
+		printf("\nAno: %d Ã© invalido !", carro[0].ano);
 	}
 	printf("\nCor: %s", carro[0].cor);
 
@@ -171,11 +171,11 @@ int main()
 	valida_ano2=le_valida_ano(carro[1].ano);
 	if (valida_ano2 >0)
 	{
-		printf("\nAno: %d é valido", carro[1].ano);
+		printf("\nAno: %d Ã© valido", carro[1].ano);
 	}
 	else 
 	{
-		printf("\nAno: %d é invalido !", carro[1].ano);
+		printf("\nAno: %d Ã© invalido !", carro[1].ano);
 	}
 	printf("\nCor: %s", carro[1].cor);
 	
@@ -184,11 +184,11 @@ int main()
 	valida_ano3=le_valida_ano(carro[2].ano);
 	if (valida_ano3 >0)
 	{
-		printf("\nAno: %d é valido", carro[2].ano);
+		printf("\nAno: %d Ã© valido", carro[2].ano);
 	}
 	else 
 	{
-		printf("\nAno: %d é invalido !", carro[2].ano);
+		printf("\nAno: %d Ã© invalido !", carro[2].ano);
 	}
 	printf("\nCor: %s", carro[2].cor);
 	
