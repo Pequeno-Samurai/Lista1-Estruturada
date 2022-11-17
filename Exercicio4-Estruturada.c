@@ -36,16 +36,17 @@ void op()
     	printf("\n%.2lf x %.2lf = %.2lf\n\n", n1, n2, n1 * n2);
     	break;
   	case '/':
+			
     	if (n2 != 0) 
-		{
+	{
       	printf("\n%.2lf / %.2lf = %.2lf\n\n", n1, n2, n1 / n2);
       	break;
     	} 
 	else 
 	{
-      printf("Sem solução.");
+      	printf("Sem solução.");
+    	}
     }
-   }
 }
 void menu()
 {
@@ -55,9 +56,9 @@ void menu()
   {
   printf("Escolha uma das operaçõess:\n1-Fazer uma operação matemática.\n2- Sair\n>>>>>>>>:");
   scanf("%d", &ops);
-  if(ops == 1)
-  {
-	op();
-  }
+  	if(ops == 1)
+  	{
+  	op();
+  	}
   }
 }
