@@ -13,6 +13,8 @@ tabela ASCII poderá ajuda-los.
 
 2) Entrada e saída de dados
 
+![image](https://user-images.githubusercontent.com/102255059/209663100-71abef4f-f4f2-4df7-9640-1158214a3563.png)
+
 Elabore um programa que receba os seguintes dados do formulário abaixo (atualmente preenchido em papel) e
 apresente na tela ao final, aproximando-se ao máximo do "layout" original, desconsidere as máscaras de valores
 como os pontos no CPF por exemplo. Crie uma função le_valida_ano para validar o ano do veículo entre
